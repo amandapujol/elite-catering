@@ -1,0 +1,118 @@
+/*main banner section*/
+.main-banner-section h1{
+	font-weight: 600;
+    letter-spacing: 1px;
+}
+.main-banner-section p{
+	line-height: 1.7;
+	font-weight: 400;
+}
+.main-banner-section a{
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.main-banner-section a:hover{
+	border-color: #34b3f1;
+	background-color: #34b3f1 !important;
+	color: #fff !important;
+}
+/* main-recipe-section*/
+.main-recipe-section p{
+	font-weight: 400;
+    line-height: 1.5;
+}
+.main-recipe-section h2{
+	font-weight: 600;
+    margin-bottom: 13px;
+}
+.recipe-col-one h3{
+	padding: 0;
+    font-weight: 600;
+}
+.recipe-col-one a.wp-block-button__link{
+    display: inline-block;
+    font-weight: 600;
+    background-color: transparent !important;
+    color: #000 !important;
+    text-decoration: none;
+    position: relative;
+    padding: 12px 0px;
+}
+.recipe-col-one a.wp-block-button__link:after {
+    position: absolute;
+    border-bottom: solid 1px #111;
+    width: 70%;
+    opacity: 1;
+    background: transparent;
+    content: '';
+    bottom: 8px;
+    left: 63%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+.recipe-col-one a.wp-block-button__link:hover{
+	box-shadow: none !important;
+	background: none !important;
+    color:#000 !important;
+}
+.recipe-col-one a.wp-block-button__link:before{
+	color: #34b3f1;
+    font-size: 8px;
+    padding: 2px 2px 2px 4px;
+    border: 1px solid;
+    border-radius: 50%;
+    content: "\f04b";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+}
+.recipe-section-col .col-one ,.recipe-col-one .wp-block-columns{
+    gap: 0em;
+}
+.recipe-section-col img ,.recipe-section-img img{
+	border-radius: 5px !important;
+}
+.recipe-section-img img{
+    width: 100%;
+}
+.recipe-section-button a{
+    padding: 10px 20px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+.recipe-section-button a:hover{
+	background-color: #000 !important;
+	box-shadow: none !important;
+}
+@media screen and (max-width: 720px) {
+	.recipe-section-col img{
+		width: auto;
+	}
+	.recipe-col-one .wp-block-buttons{
+		justify-content: center !important;
+	}
+	.recipe-section-col .wp-block-columns{
+		gap: 0em !important;
+	}
+    .recipe-section-button {
+        justify-content: center;
+    }
+    .main-recipe-section-main-col{
+        gap: 0em !important;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    .main-recipe-section .main-recipe-section-main-col ,.recipe-col-one .wp-block-columns{
+        flex-wrap: nowrap !important;
+    }
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.recipe-img{
+        flex-basis: 33.33% !important;
+    }
+    .recipe-col-one .wp-block-columns {
+         gap: 1em;
+    }
+}

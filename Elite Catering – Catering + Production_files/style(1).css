@@ -1,0 +1,159 @@
+/*
+Theme Name: Catering Lite
+Theme URI: https://www.themesglance.com/themes/free-catering-wordpress-theme/
+Author: Themesglance
+Author URI: https://www.themesglance.com/
+Description: Catering Lite is a free WordPress theme for creating wonderful websites for caterers, catering and food service providers, food Court, wedding events, event planners, event catering, wedding planners and events agencies, food suppliers for special occasions, and relevant businesses. It is clean and user-friendly with some interesting features accompanied by a responsive design. It is crafted by professional web developers and has many personalization options included. This theme has a beautiful banner to show your content and various sections such as Team, Testimonial, etc. as well as a Call to Action Button (CTA) to take care of the conversion rates. This theme is made according to the latest WordPress standards and includes SEO-friendly codes so you never have to worry about your ranks in search engines and more and more traffic is going to get diverted to your website. Also, these codes are optimized for bringing a super lightweight website that loads quickly delivering a faster page load time. There are many interactive elements and attractive CSS animations and effects included to give a new dimension to your website. This free theme is built using the Bootstrap framework and has styling options and a responsive slider included. With plenty of display options as well as social media integration, you will be able to bring a functional website. Demo: https://www.themesglance.com/catering-pro/
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.2
+Version: 0.3
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: catering-lite
+Template: food-truck-lite
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, block-patterns, custom-background, custom-logo, custom-menu, custom-header, featured-images, featured-image-header, footer-widgets, full-width-template, theme-options, post-formats, threaded-comments, translation-ready, rtl-language-support, blog, food-and-drink, e-commerce
+*/
+
+.top-bar-btn a, .read-more a:hover, .woocommerce span.onsale, .back-to-top, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, a.added_to_cart.wc-forward, #slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover, .nav-menu ul ul a, .post-info, .blogbtn a, #sidebar h3, .pagination .current, .pagination a:hover, #footer input[type="submit"], .footerinner .tagcloud a:hover, .navigation .nav-previous a, .navigation .nav-next a, .tags a:hover, #comments a.comment-reply-link, #comments input[type="submit"].submit, #sidebar input[type="submit"], #sidebar .tagcloud a:hover, h1.page-title, h1.search-title, nav.woocommerce-MyAccount-navigation ul li {
+    background: #34b3f1;
+}
+p.call-info i, a, a:hover, #menu-section strong, #footer h3, #recipe-section span.small-title, .tags a i, .woocommerce-message::before {
+	color: #34b3f1;
+}
+.read-more a:hover, #footer h3, #slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover, .nav-menu ul ul a:hover, .nav-menu ul ul, .blog-sec, #sidebar .widget, .pagination .current, .pagination a:hover, .inner, .tags a:hover, .woocommerce-message {
+	border-color: #34b3f1;
+}
+.back-to-top::before, #header {
+	border-bottom-color: #34b3f1;
+}
+.tags a:hover {
+	color: #fff;
+}
+#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon {
+	font-size: 16px;
+	padding: 7px 12px;
+}
+#sidebar .search-form label{
+	width: 100%;
+}
+#sidebar input[type="submit"]{
+	width: 100%;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, a.added_to_cart.wc-forward {
+	color: #fff;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	background: rgb(52 179 241 / 20%);
+}
+.post-categories li a{
+	background-color: #34b3f1;
+	color: #fff;
+}
+.product-name a{
+	text-decoration: none !important;
+}
+/*Recipe Section*/
+.entry-video video {
+	width: 100%;
+}
+#recipe-section h3 {
+	font-size: 25px;
+	font-weight: 600;
+}
+#recipe-section .recipe-box img {
+	border-radius: 5px;
+	width: 100%;
+}
+#recipe-section .recipe-box h4 {
+	padding: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+#recipe-section .recipe-box h4 a, #recipe-section .recipe-box a.click-btn {
+	color: #000;
+}
+#recipe-section .recipe-box .entry-author {
+	font-size: 13px;
+}
+#recipe-section .recipe-box a.click-btn span {
+	font-size: 12px;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	font-weight: 500;
+}
+#recipe-section .recipe-box a.click-btn i {
+	color: #34b3f1;
+    font-size: 8px;
+    padding: 4px 2px 2px 2px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+#recipe-section .view-btn a {
+	background: #34b3f1;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 600;
+	display: inline-block;
+}
+#recipe-section .view-btn a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .top-bar-btn a:hover {
+	background: #000;
+	color: #fff;
+}
+.post-info a:hover span.entry-date ,.post-info a:hover span.entry-author{
+	color: #000000 !important;
+}
+p.comment-form-url label{
+	display: block;
+}
+p.comment-form-url input{
+	padding: 12px 10px !important;
+    font-size: 18px;
+    margin: 20px 0 0 0 !important;
+    border: 1px solid #bcbcbc;
+    width: 100%;
+    height: auto;
+}
+.read-more a{
+	 border-radius: 5px !important;
+}
+.bradcrumbs span{
+	background: #34b3f1;
+    color: #fff;
+}
+.bradcrumbs a{
+	background: #34b3f1;
+}
+.woocommerce-products-header h1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#menu-section{
+	padding-bottom: 0.5rem !important;
+}
+#recipe-section{
+	padding-top: 0rem !important;
+}
+.post-info i {
+	margin-right: 0px;
+}
+label.wp-block-search__label{
+	width: 100% !important;
+}
+.wp-block-search__inside-wrapper{
+	display: inline-flex;
+}
+@media screen and (max-width: 768px) and (min-width: 720px){
+	#sidebar label{
+	width: 100%;
+	}
+	.wp-block-search__inside-wrapper {
+		display: inline-block;
+	}
+	.wp-block-search__button{
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+}
+
